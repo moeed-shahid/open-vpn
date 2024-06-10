@@ -8,7 +8,6 @@ dev tun
 proto tcp
 remote 35.177.39.88 1194
 resolv-retry infinite
-auth-user-pass
 nobind
 persist-key
 persist-tun
@@ -16,6 +15,8 @@ remote-cert-tls server
 auth SHA512
 ignore-unknown-option block-outside-dns
 verb 3
+key-direction 1
+comp-lzo
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIDSzCCAjOgAwIBAgIUT7tcC96FPXUDvDjxzEhQG2PhQCMwDQYJKoZIhvcNAQEL
