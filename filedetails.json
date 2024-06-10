@@ -8,6 +8,7 @@ dev tun
 proto tcp
 remote 35.177.39.88 1194
 resolv-retry infinite
+auth-user-pass
 nobind
 persist-key
 persist-tun
