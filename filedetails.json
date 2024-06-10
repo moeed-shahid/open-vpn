@@ -15,8 +15,6 @@ remote-cert-tls server
 auth SHA512
 ignore-unknown-option block-outside-dns
 verb 3
-key-direction 1
-comp-lzo
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIDSzCCAjOgAwIBAgIUT7tcC96FPXUDvDjxzEhQG2PhQCMwDQYJKoZIhvcNAQEL
